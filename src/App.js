@@ -20,7 +20,16 @@ function App() {
       });
   }, []);
 
-  return <div className="App">{<Photo photoURL={photo["url"]} />}</div>;
+  return (
+    <div className="App">
+      <Photo
+        photoURL={photo["url"]}
+        date={photo["date"]}
+        title={photo["title"]}
+        explanation={photo["explanation"]}
+      />
+    </div>
+  );
 }
 
 export default App;
