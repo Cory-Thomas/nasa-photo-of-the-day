@@ -27,6 +27,7 @@ function App() {
         date={photo["date"]}
         title={photo["title"]}
         explanation={photo["explanation"]}
+        copyright={photo["copyright"]}
       />
     </div>
   );
