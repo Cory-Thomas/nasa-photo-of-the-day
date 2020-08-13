@@ -4,7 +4,7 @@ import axios from "axios";
 import Photo from "./components/Photo";
 
 function App() {
-  const [photo, setPhoto] = useState("");
+  const [photo, setPhoto] = useState({});
 
   useEffect(() => {
     axios
